@@ -1,0 +1,83 @@
+.weather-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .search {
+    margin-bottom: 50px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .search input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .search button {
+    padding: 10px;
+  }
+  
+  .weather-display {
+    margin-bottom: 20px;
+  }
+  
+  .weather-display .current-weather,
+  .weather-display .forecast {
+    margin-bottom: 20px;
+  }
+  .forecast-cards {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+  }
+  
+  .forecast-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .favorites {
+    margin-top: 20px;
+  }
+  
+  .favorites ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .favorites li {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .favorites button {
+    margin-left: 10px;
+  }
+  
+  .favorites button {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorites button:hover {
+  background-color: #0056b3;
+}
+body{
+    background-color: #E3F2FD;
+  }
